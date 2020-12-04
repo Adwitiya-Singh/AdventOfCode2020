@@ -11,7 +11,7 @@ def one_2(array):
                     return i * j * k
 
 if __name__ == '__main__':
-    with open('day1_1_input.txt') as file:
+    with open('day1_input.txt') as file:
         content = file.read()
     array = content.split()
     numbers = list(map(int, array))
